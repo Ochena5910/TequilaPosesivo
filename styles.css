@@ -1,0 +1,110 @@
+/*All backgrounds!*/
+	.backmain {
+		background-image: url('../001BackOffMain.png');
+		background-size: cover;
+	}
+
+	.backoffistore {
+		background-image: url('../006BackOfficialProducts.png');
+		background-size: cover;
+	}
+
+	.backsigncart {
+		background-image: url('../007BackSignCart.png');
+		background-size: cover;	
+	}
+
+	.backvaluestile {
+		background-image: url('../008BackValues.png');
+		background-size: cover;
+	}
+
+	.ratingstile {
+		background-image: url('../009BackReviews.png');
+		background-size: cover;
+	}
+
+	.backcontact {
+		background-image: url('../013BackContact.png');
+		background-size: cover;
+	}
+
+	.backrecipe {
+		background-image: url('../010BackRecipe1.png');
+		background-size: cover;
+	}
+	
+/*All lists*/
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+/*styles text colors*/
+	.color1{
+		color: #618e61;
+	}
+	.color2 {
+		color: #f8e9e6;
+	}
+	.color3 {
+		color: #808080;
+	}
+	.color4 {
+		color: #333333;
+	}
+	.color5 {
+		color: #deeffc;
+	}
+	.color6 {
+		color: #c1f7a4;
+	}
+	.color7 {
+		color: #2579bf;
+	}
+/*All text decoration*/
+	body {
+		font-family: 'junction_regularregular',Arial, Helvetica, sans-serif;
+	}
+	.cursive {
+		font-family: 'DancingScript-Regular';
+	}
+	@font-face {
+		font-family: 'DancingScript-Regular';
+		src: url("DancingScript-Regular.otf") format("opentype");
+		font-size: 30px;
+	}
+	.unstyled {
+		text-decoration: none;
+	}
+	/* unvisited link */
+	a:link {
+		text-decoration: inherit;
+	}
+
+	/* visited link */
+	a:visited {
+		text-decoration: inherit;
+	}
+
+	/* mouse over link */
+	a:hover {
+		text-decoration: inherit;
+	}
+
+	/* selected link */
+	a:active {
+		text-decoration: inherit;
+	}
+	.carousel-indicators {
+		padding: 20px;
+	}
+	.container {
+		margin: 0px;
+	}
+	.tequilas {
+		padding-top:60px;
+		z-index: 3;
+	}
+	.iconsmaintequilas {
+		margin-bottom: 20px;
+	}
