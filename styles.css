@@ -1,36 +1,44 @@
 /*All backgrounds!*/
 	.backmain {
-		background-image: url('../001BackOffMain.png');
+		background-image: url('../TequilaPosesivo/PNGs/001BackOffMain.png');
 		background-size: cover;
 	}
 
 	.backoffistore {
-		background-image: url('../006BackOfficialProducts.png');
+		background-image: url('../TequilaPosesivo/PNGs/006BackOfficialProducts.png');
 		background-size: cover;
 	}
 
 	.backsigncart {
-		background-image: url('../007BackSignCart.png');
+		background-image: url('../TequilaPosesivo/PNGs/007BackSignCart.png');
 		background-size: cover;	
 	}
 
 	.backvaluestile {
-		background-image: url('../008BackValues.png');
+		background-image: url('../TequilaPosesivo/PNGs/008BackValues.png');
 		background-size: cover;
 	}
 
 	.ratingstile {
-		background-image: url('../009BackReviews.png');
+		background-image: url('../TequilaPosesivo/PNGs/009BackReviews.png');
 		background-size: cover;
 	}
 
 	.backcontact {
-		background-image: url('../013BackContact.png');
+		background-image: url('../TequilaPosesivo/PNGs/013BackContact.png');
 		background-size: cover;
 	}
 
-	.backrecipe {
-		background-image: url('../010BackRecipe1.png');
+	.backrecipe1 {
+		background-image: url('../TequilaPosesivo/PNGs/010BackRecipe1.png');
+		background-size: cover;
+	}
+	.backrecipe2 {
+		background-image: url('../TequilaPosesivo/PNGs/011BackRecipe2.png');
+		background-size: cover;
+	}
+	.backrecipe3 {
+		background-image: url('../TequilaPosesivo/PNGs/012BackRecipe3.png');
 		background-size: cover;
 	}
 	
@@ -73,27 +81,31 @@
 		src: url("DancingScript-Regular.otf") format("opentype");
 		font-size: 30px;
 	}
-	.unstyled {
-		text-decoration: none;
+	
+	.position {
+		margin-top: 0px;
+		padding-top: 15px;
 	}
+	
 	/* unvisited link */
 	a:link {
-		text-decoration: inherit;
+		text-decoration: none;
 	}
 
 	/* visited link */
 	a:visited {
-		text-decoration: inherit;
+		text-decoration: none;
+		text-transform: none;
 	}
 
 	/* mouse over link */
 	a:hover {
-		text-decoration: inherit;
+		text-decoration: none;
 	}
 
 	/* selected link */
 	a:active {
-		text-decoration: inherit;
+		text-decoration: none;
 	}
 	.carousel-indicators {
 		padding: 20px;
@@ -101,10 +113,32 @@
 	.container {
 		margin: 0px;
 	}
+	.tequil {
+		padding-top:20px;
+		z-index: 2;
+	}
 	.tequilas {
-		padding-top:60px;
+		padding-top:50px;
 		z-index: 3;
 	}
+	.iconsmaincontacts {
+		vertical-align: middle;
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
 	.iconsmaintequilas {
-		margin-bottom: 20px;
+		vertical-align: bottom;
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
+	.lineheight {
+		line-height: 19px;
+	}
+	.indicator .carousel-indicators li {   
+		background: #b1e796; 
+		margin:0;
+		border: none;
+	}
+	.indicator .carousel-indicators .active{
+		background-color: #fbece7;
 	}
